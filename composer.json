@@ -12,7 +12,8 @@
     "require": {
         "php": ">=7.1.3",
         "laravel/framework": "*",
-        "alibabacloud/darabonba-openapi": "^0.1.8"
+        "alibabacloud/darabonba-openapi": "^0.1.8",
+        "alibabacloud/bssopenapi-20171214": "^1.0"
     },
     "autoload": {
         "psr-4": {
