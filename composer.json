@@ -1,0 +1,29 @@
+{
+    "name": "wang-tech-commits/laravel-alibabacloud",
+    "description": "整合阿里云API",
+    "license": "MIT",
+    "homepage": "https://github.com/wang-tech-commits/laravel-alibabacloud",
+    "authors": [
+        {
+            "name": "Mr.wang",
+            "email": "15124532157@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "laravel/framework": "*",
+        "alibabacloud/darabonba-openapi": "^0.1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrwangTc\\Alibabacloud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrwangTc\\Alibabacloud\\ServiceProvider"
+            ]
+        }
+    }
+}
