@@ -11,8 +11,6 @@ class Base
 
     protected $config   = [];
 
-    protected $endpoint = [];
-
     public function __construct()
     {
         $config = config('alibabacloud');
