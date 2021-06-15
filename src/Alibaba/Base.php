@@ -2,7 +2,7 @@
 
 namespace MrwangTc\Alibabacloud\Alibaba;
 
-use Mrwang\Alibabacloud\Exceptions\InvalidArgumentException;
+use MrwangTc\Alibabacloud\Exceptions\InvalidArgumentException;
 use AlibabaCloud\SDK\BssOpenApi\V20171214\BssOpenApi;
 use Darabonba\OpenApi\Models\Config;
 

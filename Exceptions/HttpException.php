@@ -1,6 +1,6 @@
 <?php
 
-namespace Mrwang\Alibabacloud\Exceptions;
+namespace MrwangTc\Alibabacloud\Exceptions;
 
 use Exception;
 

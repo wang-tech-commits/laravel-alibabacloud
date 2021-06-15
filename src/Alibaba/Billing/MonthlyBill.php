@@ -5,7 +5,7 @@ namespace MrwangTc\Alibabacloud\Alibaba\Billing;
 use AlibabaCloud\SDK\BssOpenApi\V20171214\Models\QueryMonthlyBillRequest;
 use AlibabaCloud\Tea\Exception\TeaUnableRetryError;
 use Carbon\Carbon;
-use Mrwang\Alibabacloud\Exceptions\HttpException;
+use MrwangTc\Alibabacloud\Exceptions\HttpException;
 use MrwangTc\Alibabacloud\Alibaba\Base;
 
 class MonthlyBill extends Base

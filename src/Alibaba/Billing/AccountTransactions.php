@@ -4,7 +4,7 @@ namespace MrwangTc\Alibabacloud\Alibaba\Billing;
 
 use AlibabaCloud\SDK\BssOpenApi\V20171214\Models\QueryAccountTransactionsRequest;
 use AlibabaCloud\Tea\Exception\TeaUnableRetryError;
-use Mrwang\Alibabacloud\Exceptions\HttpException;
+use MrwangTc\Alibabacloud\Exceptions\HttpException;
 use MrwangTc\Alibabacloud\Alibaba\Base;
 
 class AccountTransactions extends Base
